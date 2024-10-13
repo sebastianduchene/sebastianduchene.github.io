@@ -7,7 +7,8 @@ image: /assets/images/beach1.png
 ---
 This is where I would mention who is in the team and that
 
-![image](/assets/images/beach1.jpg)
+![image](https://github.com/sebastianduchene/sebastianduchene.github.io/blob/main/docs/assets/images/beach1.jpeg?raw=true)
+<img src="https://github.com/sebastianduchene/sebastianduchene.github.io/blob/main/docs/assets/images/beach1.jpeg?raw=true" alt="image_test2" width="200"/>
 
 Here is a testing image 1[link to the image]({{page.image | relative_url}})
 
