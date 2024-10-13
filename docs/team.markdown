@@ -3,8 +3,14 @@ layout: page
 title:  "Team"
 date:   2024-10-06 18:06:47 +0200
 categories: people
+image: /assets/images/beach1.png
 ---
 This is where I would mention who is in the team and that
+
+![image](/assets/images/beach1.jpg)
+
+Here is a testing image 1[link to the image]({{page.image | relative_url}})
+
 
 {% highlight ruby %}
 def print_hi(name)
