@@ -17,7 +17,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sebastian Duchene - Infectious disease genomics
+title: Sebastian Duchene - Research and academic site
+
 email: sduchene@unimelb.edu.au
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -25,6 +26,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sebduchene
 github_username:  sebastianduchene
 
+header_pages:
+  - about.markdown
+  - team.markdown
 
 
 # Build settings
