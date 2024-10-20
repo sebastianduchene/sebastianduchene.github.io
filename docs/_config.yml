@@ -17,7 +17,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sebastian Duchene - Research and academic site
+title: Sebastian Duchene - Research site
 
 email: sduchene@unimelb.edu.au
 description: ""
@@ -28,11 +28,14 @@ github_username:  sebastianduchene
 
 header_pages:
   - about.markdown
+  - cv.markdown
+  - research.markdown
   - team.markdown
-
 
 # Build settings
 theme: minima
+#theme: bulma-clean-theme
+#remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 #remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
 plugins:

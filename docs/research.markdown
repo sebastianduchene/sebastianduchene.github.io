@@ -1,12 +1,16 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
+layout: page
+title:  "Research"
 date:   2024-10-06 18:06:47 +0200
-categories: jekyll update
+categories: people
+image: /assets/images/beach1.png
 ---
-This is a blog post that I would have started about something
+This is where I would mention who is in the team and that
 
 ![image](https://github.com/sebastianduchene/sebastianduchene.github.io/blob/main/docs/assets/images/beach1.jpeg?raw=true)
+<img src="https://github.com/sebastianduchene/sebastianduchene.github.io/blob/main/docs/assets/images/beach1.jpeg?raw=true" alt="image_test2" width="200"/>
+
+Here is a testing image 1[link to the image]({{page.image | relative_url}})
 
 
 {% highlight ruby %}
