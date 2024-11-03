@@ -10,17 +10,3 @@ I have supervised four postdoctoral researchers through my own funding, three Ph
 
 My research has been in the field of microbial computational molecular evolution, with the following major contributions:
 
-**Molecular evolutionary rates in viruses and bacteria**
-
-
-Two landmark publications (Duchêne et al. 2014; Duchêne et al. 2016) showed the limits of how fast or slow viruses and bacteria can evolve. This work was essential for my subsequent analyses of ancient DNA data of several microbes (Weyrich et al. 2017; Eaton et al. 2023). I have also written reviews and opinion pieces on ancient microbial DNA evolution (Duchêne et al. 2020; Duchene 2023). This work has had profound consequences for our understanding of the evolutionary rate of SARS-CoV-2 (Duchene et al. 2020 Virus Evol), and the mechanism behind the emergence of variants of concern (Tay et al. 2022 Mol Biol Evol). These studies have been covered by various media outlets, including the ABC, Le Figaro (France), El Pais (Spain), The Guardian, and others.
-
-**Techniques to estimate evolutionary timescales**
-
-
-I have pioneered methods for improving estimates of when pathogens emerge. In particular, I developed two statistical tests that are widely adopted in the field of pathogen molecular genomics and ancient DNA research (Duchene et al. 2015 Mol Biol Evol; Duchene et al. 2020 Mol Biol Evol).
-
-**Methods for estimating epidemiological parameters from molecular sequence data sets**
-
-
-My team has developed a range of methods for integrating genomic and epidemiological information in sequence data sets (e.g. Featherstone et al. 2020 Mol Biol Evol), some of which I implemented into the widely popular BEAST2.5 software (Bouckaert et al. 2019 Plos Comp Bio).
