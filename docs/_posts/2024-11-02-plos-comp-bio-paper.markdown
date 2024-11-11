@@ -29,12 +29,12 @@ We conducted simulation experiments and analyses of several empirical data sets 
 3. The problem of incorrect detection of temporal signal can be mitigated by using a tree prior that does penalises trees that are implausibly old.
 
 ![image](https://github.com/sebastianduchene/sebastianduchene.github.io/blob/main/docs/assets/images/tree_distortion.png?raw=true)
-**Fig 1** Root to tip regression conducted in TempEst based on tree in Fig 2.
+**Fig 2** Tree extension in data with no temporal signal. The true tree is simulated under a strict molecular clock (SC) and under no temporal signal (isochronous), shown here on the left. The inclusion of sampling times (SC heterochronous) results in a tree that is 500 times older than the truth. A similar, but more extreme situation occurs when we analyse the data under a relaxed molecular clock (UCLD here, for uncorrelated log-normally distributed).
 
+The reason for why phylogenetic trees inferred for data sets with not temporal signal are so old is probably a means of compensating for the likelihood penalty of including sampling times that should not be there. In a very old tree, the sampling window corresponds to a very small proportion of the total timescale, so that the trees with and without sampling times can indeed have very similiar likelihoods (Fig 3).
 
-
-
-The reason for why phylogenetic trees inferred for data sets with not temporal signal are so old is probably a means of compensating for the likelihood penalty of including sampling times that should not be there. In a very old tree, the sampling window corresponds to a very small proportion of the total timescale, so that the trees with and without sampling times can indeed have very simliar likelihoods. 
+![image](https://github.com/sebastianduchene/sebastianduchene.github.io/blob/main/docs/assets/images/tree_likelihoods.png?raw=true)
+**Fig 3** 
 
 
 ## Implications for future studies
