@@ -44,10 +44,10 @@ Please read the paper for more details on how to set up analyses with no samplin
 ## References
 Sebastian Duchene, Philippe Lemey, Tanja Stadler, Simon Y W Ho, David A Duchene, Vijaykrishna Dhanasekaran, Guy Baele, **Bayesian Evaluation of Temporal Signal in Measurably Evolving Populations**, Molecular Biology and Evolution, Volume 37, Issue 11, November 2020, Pages 3363–3379. doi: [https://doi.org/10.1093/molbev/msaa163][bets-paper]
 
-Leo A Featherstone, Andrew Rambaut, Sebastian Duchene, Wytamma Wirth, **Clockor2: Inferring Global and Local Strict Molecular Clocks Using Root-to-Tip Regression**, Systematic Biology, Volume 73, Issue 3, May 2024, Pages 623–628, doi: [https://doi.org/10.1093/sysbio/syae003][https://academic.oup.com/sysbio/article/73/3/623/7609804]
+Leo A Featherstone, Andrew Rambaut, Sebastian Duchene, Wytamma Wirth, **Clockor2: Inferring Global and Local Strict Molecular Clocks Using Root-to-Tip Regression**, Systematic Biology, Volume 73, Issue 3, May 2024, Pages 623–628, doi: [https://doi.org/10.1093/sysbio/syae003](https://academic.oup.com/sysbio/article/73/3/623/7609804)
 
 John H Tay, Arthur Kocher, Sebastian Duchene, **Assessing the effect of model specification and prior sensitivity on Bayesian tests of temporal signal**
-PLoS Comput Biol 20(11): e1012371. doi: [https://doi.org/10.1101/2024.08.12.607579][https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012371]
+PLoS Comput Biol 20(11): e1012371. doi: [https://doi.org/10.1101/2024.08.12.607579](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012371)
 
 
 
