@@ -34,11 +34,12 @@ We conducted simulation experiments and analyses of several empirical data sets 
 The reason for why phylogenetic trees inferred for data sets with not temporal signal are so old is probably a means of compensating for the likelihood penalty of including sampling times that should not be there. In a very old tree, the sampling window corresponds to a very small proportion of the total timescale, so that the trees with and without sampling times can indeed have very similiar likelihoods (Fig 3).
 
 ![image](https://github.com/sebastianduchene/sebastianduchene.github.io/blob/main/docs/assets/images/tree_likelihoods.png?raw=true)
-**Fig 3** 
-
+**Fig 3** Tree likelihoods for different analysis treatments. The *y*-axis is the phylogenetic likelihood (probability of the sequence data given the model) and the *x* axis is the height of the root-node. The data were generated with no temporal signal, so the correct model is the isochronous. Note that including sampling times (heterochronous) results in much older trees with similar likelihoods as those with no dates. In contrast, when we impose a hard bound on the age of the root, the likelihood is much lower (purple symbols).
 
 ## Implications for future studies
+Sampling form the prior (also known as prior predictive simulations) should become standard practice with Bayesian models. Doing so allows us to understand how the different parameters and their priors are interacting and ultimately what is the marginal prior on parameters of interest. Here, we did not use explicit priors on the ages of nodes, but the population size of the coalescent process, which we use as tree prior, implicitly places prior distributions on the ages of nodes. A prior that makes unreasonable assumptions can result in an implausible posterior and the impact in model selection is not trivial. Here we recommend verifying the prior on the age of the root, and on the molecular clock rate, both fundamental parameters for understanding temporal signal. 
 
+Please read the paper for more details on how to set up analyses with no sampling times correctly and other aspects about prior predictive simulations, such as parameter nonidentifiability.
 
 
 
