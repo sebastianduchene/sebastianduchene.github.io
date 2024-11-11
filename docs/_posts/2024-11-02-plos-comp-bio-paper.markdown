@@ -25,10 +25,16 @@ The current study was motivated by our observations that the prior in Bayesian p
 We conducted simulation experiments and analyses of several empirical data sets of pathogens, some involving ancient samples. Empirical data are always interesting because they violate the assumptions of the models in many ways, but it is often difficult to pinpoint problems in our methods because we do not know the ground truth and we will often ignore all the ways they will violate the assumptions of the model. For these reasons I will focus on our simulation results. In summary:
 
 1. BETS is very good at detecting temporal signal when it is indeed present (low type II error or low false negative rate).
-2. When temporal signal is not present, Bayesian phylogenetic analyses tend to make phylogenetic trees very old and incorrectly favour temporal signal (high type I error or high false positive rate).
+2. When temporal signal is not present, Bayesian phylogenetic analyses tend to make phylogenetic trees implausibly old (I am talking many orders of magnitude) and incorrectly favour temporal signal (high type I error or high false positive rate). For an example, see Fig2 below.
+3. The problem of incorrect detection of temporal signal can be mitigated by using a tree prior that does penalises trees that are implausibly old.
+
+![image](https://github.com/sebastianduchene/sebastianduchene.github.io/blob/main/docs/assets/images/tree_distortion.png?raw=true)
+**Fig 1** Root to tip regression conducted in TempEst based on tree in Fig 2.
 
 
-They do this as a means of compensating for the likelihood penalty of including sampling times that should not be there. 
+
+
+The reason for why phylogenetic trees inferred for data sets with not temporal signal are so old is probably a means of compensating for the likelihood penalty of including sampling times that should not be there. In a very old tree, the sampling window corresponds to a very small proportion of the total timescale, so that the trees with and without sampling times can indeed have very simliar likelihoods. 
 
 
 ## Implications for future studies
